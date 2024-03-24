@@ -9,7 +9,6 @@ interface Props {
   image: string;
   downloadNumber: number;
   downloadLink: string;
-  slug: string;
 }
 
 const ResourceCard = ({
@@ -18,7 +17,6 @@ const ResourceCard = ({
   image,
   downloadNumber,
   downloadLink,
-  slug,
 }: Props) => {
   return (
     <Card className="w-full max-w-fit border-0 !bg-transparent sm:max-w-[356px]">
